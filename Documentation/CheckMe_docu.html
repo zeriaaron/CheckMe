@@ -1,0 +1,716 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="styles_CheckMe_docu.css">
+
+        <title>Rave Works</title>
+
+        <link rel="shortcut icon" href="RW.png" type="image/x-icon">
+
+    </head>
+    <body>
+        <!-- Load external JavaScript -->
+        <script src="scripts.js"></script>
+
+        <header id="main-header">
+            <div class="f-container">
+                <h1>
+                    <img src="RW.png" alt="Rave Works Picture" id="rw-logo">
+                    Rave Works
+                </h1>
+            </div>
+        </header>
+
+        <nav id="navbar">
+            <div class="s-container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="mailto:raveynowm23@gmail.com">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="content">
+            <div class="container">
+                <div class="fast-container">
+                    <nav id="fast-link">
+                        <ul>
+                            <li><a href="#check-me">CheckMe!</a></li>
+                            <li><a href="#tab-functions">Tab Functions</a></li>
+                            <li><a href="#in-tab-functions">Inside Tab Functions</a></li>
+                            <li><a href="#correct-ways">Correct Ways of Data Input</a></li>
+                            <li><a href="#step-procedure">Step by Step Procedure</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="inside-container">
+                    <h1 class="h1-settings" id="check-me">
+                        CheckMe!
+                    </h1>
+                    <img id="check-png" src="CheckMe.png" alt="CheckMe! Logo">
+                    <p>
+                        CheckMe! is a software program that accurately checks the answers of students
+                        from a multiple-choice test. This program is primarily for teachers to help them check
+                        different form of tests with ease. CheckMe! was made by only one programmer,
+                        <span class="blue-bold">Zeri Aaron E. Malacas</span> under the company name,
+                        <span class="blue-bold">Rave Works</span>.
+                    </p>
+
+                    <h1 class="h1-settings" id="tab-functions">
+                        Tab Functions
+                    </h1>
+                    <p>
+                        There are four tabs in the program which are the following:
+                    </p>
+
+                    <ul>
+                        <li>
+                            <h4 class="h4-settings">Input Details Tab</h4>
+                            <p>
+                                This tab lets the user input the count of the students, and count of the key
+                                answers. Additionally, this tab contains the Credits, and Help sections. The Help
+                                section contains the documentation and software product review links.
+                            </p>
+                        </li>
+                        <li>
+                            <h4 id="data-input" class="h4-settings">Data Input Tab</h4>
+                            <p>This tab lets the user input the key answers, student's id and student's answers.</p>
+                        </li>
+                        <li>
+                            <h4 class="h4-settings">Input View Tab</h4>
+                            <p>
+                                This tab lets the user confirm and check if the key answer, students' IDs,
+                                and students' answers recorded from the
+                                <a class="href-lit" href="#data-input">Data Input Tab</a> are correct.
+                            </p>
+                        </li>
+                        <li>
+                            <h4 class="h4-settings">Output Save Tab</h4>
+                            <p>
+                                This tab lets the user customize Excel file settings such as  Excel file directory,
+                                Excel file name, and Excel file layout.
+                            </p>
+                        </li>
+                    </ul>
+
+                    <h1 class="h1-settings" id="in-tab-functions">
+                        Inside Tab Functions
+                    </h1>
+
+                    <h3 class="h3-settings">
+                        Input Details Tab
+                    </h3>
+
+                    <ul>
+                        <li>
+                            <h4 id="count-stu" class="h4-settings">Count of Students Entry</h4>
+                            <img src="student.png" alt="Count of Students Entry Picture">
+                            <p>
+                                This entry asks for how many students are there. For example, if the class has
+                                the size of 50 then the count of students is 50.
+                            </p>
+                        </li>
+                        <li>
+                            <h4 id="count-key" class="h4-settings">Count of Key Answers Entry</h4>
+                            <img src="key.png" alt="Count of Key Answers Entry Picture">
+                            <p>
+                                This entry asks for how many key answers are there. For example, if the total questions
+                                in a quiz is 30 then the count of key answers is 30.
+                            </p>
+                        </li>
+                        <li>
+                            <h4 class="h4-settings">CheckMe! Documentation</h4>
+                            <img src="documentation.png" alt="CheckMe! Documentation Picture">
+                            <p>
+                                This link is under the help section. This documentation is provided in order for
+                                the users know how to use the program properly.
+                            </p>
+                        </li>
+                        <li>
+                            <h4 class="h4-settings">Software Product Review</h4>
+                            <img src="review.png" alt="Software Product Review Pictue">
+                            <p>
+                                This link is under the help section. Software Product Review lets the programmer know what
+                                to change and further enhance in the program.
+                            </p>
+                        </li>
+                    </ul>
+
+                    <h3 class="h3-settings">
+                        Data Input Tab
+                    </h3>
+
+                    <ul>
+                        <li>
+                            <h4 id="key-ans" class="h4-settings">
+                                Key Answers Entry
+                            </h4>
+                            <img src="key_answers.png" alt="Key Answers Entry Picture" id="key-answers-png">
+                            <p>
+                                This entry asks for the actual key answers.
+                            </p>
+                        </li>
+                        <li>
+                            <h4 id="student-id" class="h4-settings">
+                                Student's ID Entry
+                            </h4>
+                            <img src="student_ID.png" alt="Student's ID Entry Picture">
+                            <p>
+                                This entry asks for one student's id at a time until the condition is met.
+                            </p>
+                        </li>
+                        <li>
+                            <h4 id="student-ans" class="h4-settings">
+                                Student's Answers Entry
+                            </h4>
+                            <img src="student_answers.png" alt="Student's Answers Entry Picture" id="student-answers-png">
+                            <p>
+                                This entry asks for one student's answers at a time until the condition is meet.
+                            </p>
+                        </li>
+                    </ul>
+
+                    <h3 class="h3-settings">
+                        Input View Tab
+                    </h3>
+
+                    <ul>
+                        <li>
+                            <h4 id="key-view" class="h4-settings">
+                                Key Answers View
+                            </h4>
+                            <img src="confirm_key.png" alt="Key Answers Confirmation View Picture"
+                            id="key-confirm-png">
+                            <p>
+                                This view is for the confirmation of the recorded key answers from the
+                                <a class="href-lit" href="#data-input">Data Input Tab</a>.
+                            </p>
+                        </li>
+                        <li>
+                            <h4 id="id-ans-view" class="h4-settings">
+                                Students' IDs and Students' Answers View
+                            </h4>
+                            <img src="list_confirm.png" alt="Students' IDs and Students' Answers View Picture"
+                            id="id-ans-confirm-png">
+                            <p>
+                                These views are for the confirmation of the recorded student's ID and student's answers from
+                                the <a class="href-lit" href="#data-input">Data Input Tab</a>.
+                            </p>
+                        </li>
+                    </ul>
+
+                    <h3 class="h3-settings">
+                        Output Save Tab
+                    </h3>
+
+                    <ul>
+                        <li>
+                            <h4 id="dir-folder" class="h4-settings">
+                                Directory Folder Input
+                            </h4>
+                            <img src="excel.png" class="img-settings" alt="Directory Folder Picture">
+                            <p>
+                                This input has an entry and a browse button. The browse button asks the user where to save
+                                the Excel file then the path will be displayed on the entry.
+                            </p>
+                        </li>
+                        <li>
+                            <h4 id="file-name" class="h4-settings">
+                                File Name Input
+                            </h4>
+                            <img src="write_notes.png" alt="File Name Picture">
+                            <p>
+                                This input has an entry, and two buttons. The entry asks the user what file name of the
+                                Excel file would be using the lock button and change button.
+                            </p>
+                        </li>
+                        <li class="li-img">
+                            <h4 id="layout-selection" class="h4-settings">
+                                Layout Selection
+                            </h4>
+                            <img src="horizontal.png" alt="Horizontal Layout Picture">
+                            <img src="vertical.png" alt="Vertical Layout Picture">
+                            <p>
+                                This layout selection has two layouts; horizontal and vertical layouts. The horizontal
+                                layout will display the data in Excel horizontally while the vertical layout will display
+                                the data in Excel vertically.
+                            </p>
+                        </li>
+                    </ul>
+
+                    <h1 class="h1-settings" id="correct-ways">
+                        Correct Ways of Data Input
+                    </h1>
+
+                    <h3 class="h3-settings">
+                        Input Details Tab
+                    </h3>
+
+                    <ul>
+                        <li class="li-img">
+                            <h4 id="count-stu" class="h4-settings">
+                                Count of Students
+                            </h4>
+                            <img src="student.png" alt="Count of Students Picture">
+                            <img src="entry.png" alt="Count of Students Entry">
+
+                            <p class="sub-text">Conditions and Restraints:</p>
+
+                            <p class="p-padding">1. Input must be an integer. Ex. 123, 60, 50.</p>
+                            <p class="p-padding">2. Input cannot be characters.</p>
+                            <p class="p-padding">3. Input cannot have spaces.</p>
+                            <p class="p-padding">4. Input cannot be blank.</p>
+                            <p class="p-padding">5. Input cannot start with 0. Ex. 01, 002, 00003.</p>
+
+                            <p class="sub-text">Connection/Dependency:</p>
+                            <p class="p-padding"><a class="href-lit" href="#count-key">Count of Key Answers</a></p>
+
+                            <p class="sub-text">Errors:</p>
+
+                            <p class="p-padding">
+                                <span class="errors">Required fields cannot be blank!</span>
+                                - when left out blank.
+                            </p>
+
+                            <p class="p-padding">
+                                <span class="errors">Invalid Input!</span>
+                                - when started with 0 or entered with characters.
+                            </p>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li class="li-img">
+                            <h4 class="h4-settings">
+                                Count of Key Answers
+                            </h4>
+                            <img src="key.png" alt="Count of Key Answers Picture">
+                            <img src="entry.png" alt="Entry Picture">
+
+                            <p class="sub-text">Conditions and Restraints:</p>
+
+                            <p class="p-padding">1. Input must be an integer. Ex. 30, 60, 90.</p>
+                            <p class="p-padding">2. Input cannot be characters.</p>
+                            <p class="p-padding">3. Input cannot have spaces.</p>
+                            <p class="p-padding">4. Input cannot be blank.</p>
+                            <p class="p-padding">5/ Input cannot start with 0. Ex. 03, 004, 00003.</p>
+
+                            <p class="sub-text">Connection/Dependency:</p>
+                            <p class="p-padding"><a class="href-lit" href="#count-stu">Count of Students</a></p>
+
+                            <p class="sub-text">Errors:</p>
+
+                            <p class="p-padding">
+                                <span class="errors">Required fields cannot be blank!</span>
+                                - when left out blank.
+                            </p>
+
+                            <p class="p-padding">
+                                <span class="errors">Invalid Input!</span>
+                                - when started with 0 or entered with characters.
+                            </p>
+                        </li>
+                    </ul>
+
+                    <h3 class="h3-settings">
+                        Data Input Tab
+                    </h3>
+
+                    <ul>
+                        <li class="li-img">
+                            <h4 class="h4-settings">
+                                Key Answers
+                            </h4>
+
+                            <img src="key_answers.png" alt="Key Answers Picture">
+                            <img src="entry.png" alt="Entry Picture">
+
+                            <p class="sub-text">Conditions and Restraints:</p>
+
+                            <p class="p-padding">1. Input must be characters.</p>
+                            <p class="p-padding">2. Input can be either in lower case or upper case format. Ex. ABC, abc,
+                            AbC (not recommended).</p>
+                            <p class="p-padding">3. Input must not have spaces.</p>
+                            <p class="p-padding">4. Input length must match the length of the
+                            <a class="href-lit" href="#count-key">Count of Key Answers</a>. Ex.
+                            {A-B-C} -> 3 = Count of Key Answers -> 3</p>
+                            <p class="p-padding">5. Input cannot be blank.</p>
+
+                            <p class="sub-text">Connection/Dependency:</p>
+                            <p class="p-padding"><a class="href-lit" href="#count-key">Count of Key Answers</a></p>
+                            <p class="p-padding"><a class="href-lit" href="#student-id">Student's ID</a></p>
+                            <p class="p-padding"><a class="href-lit" href="#student-ans">Student's Answer</a></p>
+
+                            <p class="sub-text">Errors:</p>
+
+                            <p class="p-padding">
+                                <span class="errors">Length mismatch!</span>
+                                - when length did not agree with
+                                <a class="href-lit" href="#count-key">Count of Key Answers</a>
+                            </p>
+
+                            <p class="p-padding">
+                                <span class="errors">Required fields cannot be blank!</span>
+                                - when left out blank.
+                            </p>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li class="li-img">
+                            <h4 class="h4-settings">
+                                Student's ID
+                            </h4>
+
+                            <img src="student_ID.png" alt="Student's ID Picture">
+                            <img src="entry.png" alt="Entry Picture">
+
+                            <p class="sub-text">Conditions and Restraints:</p>
+
+                            <p class="p-padding">1. Input must not have duplicates. See Input View Tab for confirmation.
+                            Ex. 1st input = A1, 2nd input = A2.</p>
+                            <p class="p-padding">2. Input can contain characters or numbers, or characters with numbers.
+                            Ex. B1, G25, AF, 23.</p>
+                            <p class="p-padding">3. Input can be in lower case or upper case format.</p>
+                            <p class="p-padding">4. Input cannot be blank.</p>
+
+                            <p class="sub-text">Connection/Dependency:</p>
+
+                            <p class="p-padding"><a class="href-lit" href="#key-ans">Key Answers</a></p>
+                            <p class="p-padding"><a class="href-lit" href="#student-ans">Student's Answers</a></p>
+
+                            <p class="sub-text">Errors:</p>
+
+                            <p class="p-padding">
+                                <span class="errors">Student IDs cannot have duplicates!</span>
+                                - when input had the same name in previous recorded data.
+                            </p>
+
+                            <p class="p-padding">
+                                <span class="errors">Required fields cannot be blank!</span>
+                                - when left out blank.
+                            </p>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li class="li-img">
+                            <h4 class="h4-settings">
+                                Student's Answers
+                            </h4>
+
+                            <img src="student_answers.png" alt="Student's Answers Picture">
+                            <img src="entry.png" alt="Entry Picture">
+
+                            <p class="sub-text">Conditions and Restraints:</p>
+
+                            <p class="p-padding">1. Input must be characters. Ex. ABCDBBCD.</p>
+                            <p class="p-padding">2. Input can be either in lower case or upper case format. Ex. ABC, abc,
+                            aBc (not recommended).</p>
+                            <p class="p-padding">3. Input must not have spaces. Ex. ABCCDCDBA.</p>
+                            <p class="p-padding">4. Input length must match the length of the Count of Key Answers.
+                            Ex. {C-B-A} -> 3 = Count of Key Answers -> 3.</p>
+                            <p class="p-padding">5. Input cannot be blank.</p>
+
+                            <p class="sub-text">Connection/Dependency:</p>
+
+                            <p class="p-padding"><a class="href-lit "href="#key-ans">Key Answers</a></p>
+                            <p class="p-padding"><a class="href-lit "href="#student-id">Student's ID</a></p>
+                            <p class="p-padding"><a class="href-lit "href="#student-ans">Student's Answers</a></p>
+
+                            <p class="sub-text">Errors:</p>
+
+                            <p class="p-padding">
+                                <span class="errors">Length mismatch!</span>
+                                - when input had the same name in previous recorded data.
+                            </p>
+                            <p class="p-padding">
+                                <span class="errors">Required fields cannot be blank!</span>
+                                - when left out blank.
+                            </p>
+                        </li>
+                    </ul>
+
+                    <h3 class="h3-settings">
+                        Input View Tab
+                    </h3>
+
+                    <ul>
+                        <li>
+                            <h4 class="h4-settings">
+                                None
+                            </h4>
+
+                            <p class="sub-text">Conditions and Restraints:</p>
+
+                            <p class="p-padding">None</p>
+
+                            <p class="sub-text">Connection/Dependency:</p>
+
+                            <p class="p-padding">None</p>
+
+                            <p class="sub-text">Errors:</p>
+
+                            <p class="p-padding">None</p>
+                        </li>
+                    </ul>
+
+                    <h3 class="h3-settings">
+                        Output Save Tab
+                    </h3>
+
+                    <ul>
+                        <li class="li-img">
+                            <h4 class="h4-settings">
+                                Destination Folder
+                            </h4>
+
+                            <img src="excel.png" alt="Directory Folder Picture">
+                            <img src="entry.png" alt="Entry Picture">
+
+                            <p class="sub-text">Conditions and Restraints:</p>
+
+                            <p class="p-padding">1. Input cannot be filled by typing but through pressing browse button.</p>
+                            <p class="p-padding">2. Input must only be an existing destination folder on your computer.</p>
+
+                            <p class="sub-text">Connection/Dependency:</p>
+
+                            <p class="p-padding"><a class="href-lit" href="#file-name">File Name</a></p>
+
+                            <p class="sub-text">Errors:</p>
+
+                            <p class="p-padding">None</p>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li class="li-img">
+                            <h4 class="h4-settings">
+                                File Name
+                            </h4>
+
+                            <img src="write_notes.png" alt="File Name Picture">
+                            <img src="entry.png" alt="Entry Picture">
+
+                            <p class="sub-text">Conditions and Restraints:</p>
+
+                            <p class="p-padding">1. Input can contain characters or numbers, or characters with numbers.
+                            Ex. myExcel, myexcel, MYEXCEL, Myexcel.</p>
+                            <p class="p-padding">2. Input may or may not have spaces. Ex. My Excel, MyExcel.</p>
+                            <p class="p-padding">3. Avoid naming with file extensions. Ex. myExcel.docx, myExcel.xlsx,
+                            myExcel.pdf.</p>
+
+                            <p class="sub-text">Connection/Dependency:</p>
+
+                            <p class="p-padding"><a class="href-lit" href="#dir-folder">Directory Folder</a></p>
+
+                            <p class="sub-text">Errors:</p>
+
+                            <p class="p-padding">None</p>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li class="li-img">
+                            <h4 class="h4-settings">
+                                Horizontal and Vertical Layout
+                            </h4>
+
+                            <img src="horizontal.png" alt="Horizontal Layout Picture">
+                            <img src="vertical.png" alt="Vertical Layout Picture">
+                            <img src="entry.png" alt="Entry Picture">
+
+                            <p class="sub-text">Conditions and Restraints:</p>
+
+                            <p class="p-padding">1. Input must be only one, either horizontal or vertical layout.</p>
+                            <p class="p-padding">2. Input cannot have chosen layout.</p>
+
+                            <p class="sub-text">Connection:</p>
+
+                            <p class="p-padding"><a class="href-lit "href="#dir-folder">Directory Folder</a></p>
+                            <p class="p-padding"><a class="href-lit" href="#file-name">File Name</a></p>
+
+                            <p class="sub-text">Errors:</p>
+
+                            <p class="p-padding">None</p>
+                        </li>
+                    </ul>
+
+                    <h1 class="h1-settings" id="step-procedure">
+                        Step By Step Procedure
+                    </h1>
+
+                    <h3 class="h3-settings">
+                        Input Details Tab
+                    </h3>
+
+                    <h4 class="sub-text">
+                        Step 1:
+                    </h4>
+
+                    <p class="p-padding">
+                        Enter the total count of students in the <a class="href-lit" href="#count-stu">Count of Students
+                        Entry</a>. Ex. 50 students -> 50.
+                    </p>
+
+                    <h4 class="sub-text">
+                        Step 2:
+                    </h4>
+
+                    <p class="p-padding">
+                        Enter the total count of key answers in the <a class="href-lit"
+                        href="#count-key">Count of Key Answers Entry</a>. Ex. ABCDB -> 5.
+                    </p>
+
+                    <h4 class="sub-text">
+                        Step 3:
+                    </h4>
+
+                    <p class="p-padding">Hit the "ENTER" button. Ex. ABCDB -> 5.</p>
+
+                    <h4 class="sub-text">
+                        Step 4:
+                    </h4>
+
+                    <p class="p-padding">Hit the ENTER button. Ex. ABCDB -> 5.</p>
+
+                    <h3 class="h3-settings">
+                        Data Input Tab
+                    </h3>
+
+                    <h4 class="sub-text">
+                        Step 5:
+                    </h4>
+
+                    <p class="p-padding">Enter the key answers in the <a class="href-lit"
+                        href="#key-ans">Key Answers Entry</a>. Ex. ABCDC, abbcd.</p>
+
+                    <h4 class="sub-text">
+                        Step 6:
+                    </h4>
+
+                    <p class="p-padding">
+                        Enter the student's ID one at a time in the <a class="href-lit" href="#student-id">
+                        Student's ID Entry</a>. Ex. first input = A1, second input = A2 and so on.
+                    </p>
+
+                    <h4 class="sub-text">
+                        Step 7:
+                    </h4>
+
+                    <p class="p-padding">
+                        Enter the student's answers one at a time in the <a class="href-lit"
+                        href="#student-ans">Student's Answers Entry</a>. Ex. first input = ABC, second input = ABB and so on.
+                    </p>
+
+                    <h4 class="sub-text">
+                        Step 8:
+                    </h4>
+
+                    <p class="p-padding">
+                        Hit the "ENTER" button repetitively until the condition of <a class="href-lit" href="#count-stu">
+                        Count of Students</a> is met.
+                    </p>
+
+                    <h3 class="h3-settings">
+                        Input View Tab
+                    </h3>
+
+                    <h4 class="sub-text">
+                        Step 9:
+                    </h4>
+
+                    <p class="p-padding">
+                        View the key answers and confirm if they are final in the <a class="href-lit"
+                        href="#key-view">Key Answers View</a>. View the student's IDs and students' answers and confirm if
+                        they are final in the <a class="href-lit" href="#id-ans-view">
+                        Student's IDs and Students' Answers View</a>. If they are not final or the user wants to change
+                        something, select a student ID from Student ID view and press "REMOVE SELECTED ITEM" button to
+                        remove chosen student ID and its corresponding student's answers. And by doing so, the user will be
+                        able to change the key answers, add new student ID and student's answers until the condition of
+                        <a class="href-lit" href="#count-stu">Count of Students</a> is meet once again.
+                    </p>
+
+                    <h4 class="sub-text">
+                        Step 10:
+                    </h4>
+
+                    <p class="p-padding">
+                        Hit the "CONFIRM" button if the decisions are final.
+                    </p>
+
+                    <h3 class="h3-settings">
+                        Output Save
+                    </h3>
+
+                    <h4 class="sub-text">
+                        Step 11:
+                    </h4>
+
+                    <p class="p-padding">
+                        Hit the "BROWSE..." button to open the file explorer and choose a directory folder
+                        from your computer.
+                    </p>
+
+                    <h4 class="sub-text">
+                        Step 12:
+                    </h4>
+
+                    <p class="p-padding">
+                        Enter the desired file name in the <a class="href-lit" href="#file-name">File Name Entry</a>.
+                    </p>
+
+                    <h4 class="sub-text">
+                        Step 13:
+                    </h4>
+
+                    <p class="p-padding">
+                        Hit the "LOCK" button until it becomes yellow. If the user wishes to change the file name, hit the
+                        "CHANGE" button until it becomes yellow and the "LOCK" button turns green again. Then, enter
+                        desired file name again.
+                    </p>
+
+                    <h4 class="sub-text">
+                        Step 14:
+                    </h4>
+
+                    <p class="p-padding">
+                        From <a class="href-lit" href="#layout-selection">Layout Selection</a>, the user can choose from
+                        Horizontal Layout or Vertical Layout. The user can still change the layout until the "SAVE FILE"
+                        button is pressed.
+                    </p>
+
+                    <h4 class="sub-text">
+                        Step 15:
+                    </h4>
+
+                    <p class="p-padding">
+                        Hit the "SAVE FILE" button for creating an Excel file and saving it onto your computer.
+                    </p>
+
+                    <p class="h4-settings">NOTE: The user can use the program non-stop until the exit button is pressed.</p>
+
+                    <!-- w-ref - referencing a word to a definition-->
+                    <!-- h1 - Orange Big Titles -->
+                    <!-- h3 - Blue second Titles -->
+                    <!-- h4 - Green for list titles -->
+                    <!-- p sub-text - yellow text -->
+                    <!-- p errors - errors red -->
+                    <!-- p - padding - indents -->
+                </div>
+            </div>
+
+        </section>
+        <footer id="main-footer">
+            <p>Copyright &copy; 2022 Rave Works</p>
+        </footer>
+    </body>
+</html>

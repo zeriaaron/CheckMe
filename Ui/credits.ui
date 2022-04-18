@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Credits</class>
+ <widget class="QWidget" name="Credits">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>401</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CheckMe!</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../Images/CheckMe.png</normaloff>../Images/CheckMe.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(67, 67, 67);</string>
+  </property>
+  <widget class="QLabel" name="logo_png">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>30</y>
+     <width>241</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;CheckMe! Logo&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../Images/CheckMe.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="checkme_name">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>240</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rockwell</family>
+     <pointsize>22</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;CheckMe! is a useful program for &lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600; color:#00aa00;&quot;&gt;teachers&lt;/span&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt; in checking different form of tests of &lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600; color:#00aa00;&quot;&gt;students&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+	color: rgb(0, 255, 0);
+}
+
+QLabel:hover {
+	color: rgb(255, 255, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>CheckMe!</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>290</y>
+     <width>321</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox {
+	border: 0.5px solid rgb(255, 255, 0);	
+}</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QLabel" name="programmer_label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;CheckMe! was purely made using &lt;span style=&quot; font-weight:600; color:#00aa00;&quot;&gt;Python&lt;/span&gt;, and &lt;span style=&quot; font-weight:600; color:#00aa00;&quot;&gt;CSS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: rgb(0, 255, 0);
+}
+
+QLabel:hover {
+	color: rgb(255, 255, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>Programmer: Zeri Aaron E. Malacas</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gui_label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>181</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;CheckMe! was made using &lt;span style=&quot; font-weight:600; color:#00aa00;&quot;&gt;Qtdesigner&lt;/span&gt; for styling and creating the interface&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: rgb(0, 255, 0);
+}
+
+QLabel:hover {
+	color: rgb(255, 255, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>GUI Designer: Zeri Aaron E. Malacas</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="produce_label">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>85</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;CheckMe! was produced by &lt;span style=&quot; font-weight:600; color:#00aa00;&quot;&gt;Raveynowm Works&lt;/span&gt; which is owned by &lt;span style=&quot; font-weight:600; color:#00aa00;&quot;&gt;Zeri Aaron E. Malacas&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: rgb(0, 255, 0);
+}
+
+QLabel:hover {
+	color: rgb(255, 255, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>Produced by Rave Works</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="allrights_label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>120</y>
+      <width>241</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: rgb(0, 255, 0);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>© 2022 Rave Works. All rights reserved.</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="version_label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>480</y>
+     <width>401</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Input for &lt;/span&gt;&lt;span style=&quot; font-size:8pt; font-weight:600;&quot;&gt;Count of Students&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; and &lt;/span&gt;&lt;span style=&quot; font-size:8pt; font-weight:600;&quot;&gt;Count of Key Answers&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+	background-color: rgb(0, 255, 0);
+	color: rgb(67, 67, 67);
+}</string>
+   </property>
+   <property name="text">
+    <string>   Version 1.1.0.0</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <zorder>checkme_name</zorder>
+  <zorder>logo_png</zorder>
+  <zorder>groupBox</zorder>
+  <zorder>version_label</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
