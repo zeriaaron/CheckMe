@@ -168,7 +168,7 @@ QLabel:hover {
      </rect>
     </property>
     <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;CheckMe! was produced by &lt;span style=&quot; font-weight:600; color:#00aa00;&quot;&gt;Raveynowm Works&lt;/span&gt; which is owned by &lt;span style=&quot; font-weight:600; color:#00aa00;&quot;&gt;Zeri Aaron E. Malacas&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;CheckMe! was created by &lt;span style=&quot; font-weight:600; color:#00aa00;&quot;&gt;Rave Works&lt;/span&gt; which is owned by &lt;span style=&quot; font-weight:600; color:#00aa00;&quot;&gt;Zeri Aaron E. Malacas&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
@@ -180,7 +180,7 @@ QLabel:hover {
 }</string>
     </property>
     <property name="text">
-     <string>Produced by Rave Works</string>
+     <string>Created by Rave Works</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -202,7 +202,7 @@ QLabel:hover {
 </string>
     </property>
     <property name="text">
-     <string>© 2022 Rave Works. All rights reserved.</string>
+     <string>© 2022 Rave Works. All Rights Reserved.</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>

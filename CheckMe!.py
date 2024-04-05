@@ -24,8 +24,7 @@ class Help(QWidget):
                                "KhDSOqnJ8dEEgamRvS4naQ/viewform?usp=pp_url\"> <font face=Ms Shell Dlg size=5 " \
                                "color=green> Software Product Review</font> </a>"
 
-        self.url_link_docu = "<a href=\"http://localhost:63342/CheckMe!.py/Qt%20Designs/" \
-                             "Check/Documentation/i.html\"> " \
+        self.url_link_docu = "<a href=\"https://raveworks.github.io\"> " \
                              "<font face=Ms Shell Dlg size=5 color=green> " \
                              "CheckMe! Documentation</font> </a>"
 
